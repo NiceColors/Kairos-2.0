@@ -4329,6 +4329,18 @@ electron-to-chromium@^1.4.17:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.31.tgz#8d5ccc3f8253cd142b07afaa84f200fd33a7f2a6"
   integrity sha512-t3XVQtk+Frkv6aTD4RRk0OqosU+VLe1dQFW83MDer78ZD6a52frgXuYOIsLYTQiH2Lm+JB2OKYcn7zrX+YGAiQ==
 
+embla-carousel-react@^6.0.2:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/embla-carousel-react/-/embla-carousel-react-6.0.2.tgz#86de4481f949d1bf003d2c071cac135e3e7f01b5"
+  integrity sha512-oHNicBXb1V3o8KmKzgw38hf4SBy1i//7WY6dsHr7KAyrhyg9vGJck4h3S93TeIFtWJuctrxonlm6zlYzV9LYMQ==
+  dependencies:
+    embla-carousel "6.0.2"
+
+embla-carousel@6.0.2, embla-carousel@^6.0.2:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/embla-carousel/-/embla-carousel-6.0.2.tgz#de6503eaf7538eaac5a71d25cce32a073e51529a"
+  integrity sha512-6unBWN0u6ryxwHxTafQs2z9VnvOT3J7FGzLlmISFWw+kPEi8k8rlReRcqvotg6BTYRjsPmpH909xhPe/7DsUYw==
+
 emittery@^0.8.1:
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/emittery/-/emittery-0.8.1.tgz#bb23cc86d03b30aa75a7f734819dee2e1ba70860"
@@ -8483,6 +8495,11 @@ slash@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-4.0.0.tgz#2422372176c4c6c5addb5e2ada885af984b396a7"
   integrity sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew==
+
+slick-carousel@^1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/slick-carousel/-/slick-carousel-1.8.1.tgz#a4bfb29014887bb66ce528b90bd0cda262cc8f8d"
+  integrity sha512-XB9Ftrf2EEKfzoQXt3Nitrt/IPbT+f1fgqBdoxO3W/+JYvtEOW6EgxnWfr9GH6nmULv7Y2tPmEX3koxThVmebA==
 
 sockjs@^0.3.21:
   version "0.3.24"
