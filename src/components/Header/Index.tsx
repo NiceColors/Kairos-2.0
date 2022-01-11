@@ -74,7 +74,7 @@ export default function Header() {
         zIndex="-1"
         bgColor="gray.800"
         overflow="hidden"
-        display={{sm:'none', md:'none', lg:'block'}}
+        display={{sm:'none', md:'none', lg:'none', xl:'block'}}
       ></Box>
     </>
   );
