@@ -4,12 +4,14 @@ import { ColorModeSwitcher } from "./ColorModeSwitcher";
 import Layout from "../src/components/layout/";
 import Header from "./components/Header";
 import Palestrantes from "./components/Palestrantes";
+import Content from './components/Content';
 import "./styles/global.css";
 
 export const App = () => (
   <>
     <Layout>
       <Header />
+      <Content/>
       <Palestrantes />
     </Layout>
   </>
