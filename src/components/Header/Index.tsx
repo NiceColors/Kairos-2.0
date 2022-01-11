@@ -1,5 +1,5 @@
 import { Box, Text, Heading, Button, Grid, IconButton } from "@chakra-ui/react";
-import SvgComponent from "./meet";
+import SvgComponent from "../layout/NavBar/Logo";
 import {
   AiFillYoutube,
   AiFillTwitterCircle,

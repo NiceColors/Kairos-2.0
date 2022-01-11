@@ -23,6 +23,8 @@ import {
   ChevronRightIcon,
 } from "@chakra-ui/icons";
 
+import Logo from "./Logo";
+
 export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
 
@@ -50,6 +52,7 @@ export default function WithSubnavigation() {
             aria-label={"Toggle Navigation"}
           />
         </Flex>
+        <Logo />
         <Flex
           alignItems="center"
           ml={10}
