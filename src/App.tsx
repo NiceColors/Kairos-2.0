@@ -5,7 +5,7 @@ import Layout from "../src/components/layout/";
 import Header from "./components/Header";
 import Palestrantes from "./components/Palestrantes";
 import Content from "./components/Content";
-import Podcast from "./components/Podcast";
+// import Podcast from "./components/Podcast";
 import "./styles/global.css";
 
 export const App = () => (
@@ -14,7 +14,6 @@ export const App = () => (
       <Header />
       <Content />
       <Palestrantes />
-      <Podcast />
     </Layout>
   </>
 );

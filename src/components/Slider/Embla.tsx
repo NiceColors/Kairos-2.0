@@ -39,7 +39,7 @@ const EmblaCarousel = ({ slides }: any) => {
           <div className="embla__container">
             <div className="embla__slide">
               <div className="embla__slide__inner">
-                <AspectRatio w="660px" borderRadius="18px" h="400px" ratio={1}>
+                <AspectRatio maxW="660px" borderRadius="18px" h="400px" ratio={1}>
                   <iframe
                     title="naruto"
                     src="https://www.youtube.com/embed/QhBnZ6NPOY0"

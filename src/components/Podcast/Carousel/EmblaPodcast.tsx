@@ -3,6 +3,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import { Thumb } from "./EmblaCarouselThumb";
 import { mediaByIndex } from "../media";
 import "./podcast.css";
+import { AspectRatio } from "@chakra-ui/react";
 
 const EmblaCarousel = ({ slides }: any) => {
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -40,15 +41,16 @@ const EmblaCarousel = ({ slides }: any) => {
           ref={mainViewportRef}
         >
           <div className="embla__container embla__container-two">
-            {slides.map((index: any) => (
-              <div className="embla__slide embla__slide-two" key={index}>
+            {slides.map((slide: any, index: any) => (
+              <div className="embla__slide embla__slide-two">
                 <div className="embla__slide__inner embla__slide__inner-two">
-                  <img
-                    className="embla__slide__img embla__slide__img-two objt"
-                    src={mediaByIndex(index)}
-  
-                    alt="A cool cat."
-                  />
+                  <AspectRatio borderRadius="18px" maxH="500px" ratio={1}>
+                    <iframe
+                      title="naruto"
+                      src="https://www.youtube.com/embed/QhBnZ6NPOY0"
+                      allowFullScreen
+                    />
+                  </AspectRatio>
                 </div>
               </div>
             ))}

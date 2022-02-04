@@ -1,13 +1,9 @@
 .embla-two {
   position: relative;
   padding: 20px;
-  max-width: 670px;
+  max-width: 970px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.objt {
-  object-fit: contain !important;
 }
 
 .embla__viewport-two-two {
@@ -42,7 +38,6 @@
 .embla__slide__inner-two {
   position: relative;
   overflow: hidden;
-  height: 790px;
 }
 
 .embla__slide__img-two {
@@ -111,3 +106,4 @@
 .embla__slide--thumb-two.is-selected .embla__slide__thumbnail-two {
   opacity: 1;
 }
+

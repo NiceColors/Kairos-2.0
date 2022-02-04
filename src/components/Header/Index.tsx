@@ -11,7 +11,7 @@ export default function Header() {
     <>
       <Grid
         minH="80vh"
-        gridTemplateColumns=" repeat( auto-fit, minmax(550px, 1fr) )"
+        gridTemplateColumns=" repeat( auto-fit, )"
       >
         <Box p="46px" borderRadius="16px" maxH="60vh">
           <Heading
@@ -61,7 +61,6 @@ export default function Header() {
           h="500px"
           borderRadius="26px"
         >
-          <Embla />
         </Box>
       </Grid>
 
@@ -74,7 +73,13 @@ export default function Header() {
         zIndex="-1"
         bgColor="gray.800"
         overflow="hidden"
-        display={{sm:'none', md:'none', lg:'none', xl:'block'}}
+        display={{
+          base: "none",
+          sm: "none",
+          md: "none",
+          lg: "none",
+          xl: "block",
+        }}
       ></Box>
     </>
   );
