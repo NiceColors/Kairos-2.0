@@ -11,14 +11,14 @@ export default function index() {
           mb={20}
           _before={{
             content: "''",
-            display: "block",
+            display: "flex",
             width: "200px",
             height: "5px",
             opacity: "0.5",
             background: "green",
-            position: "absolute",
-            bottom: -4,
-            left: "44%",
+            position: "relative",
+            bottom: -24,
+            margin: "0 auto",
           }}
           fontSize="3.5rem"
         >
