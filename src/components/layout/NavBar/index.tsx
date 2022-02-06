@@ -15,6 +15,7 @@ import {
   useBreakpointValue,
   useDisclosure,
   Heading,
+  Image,
 } from "@chakra-ui/react";
 import {
   HamburgerIcon,
@@ -27,6 +28,9 @@ import Logo from "./Logo";
 
 export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
+  const bp = useBreakpointValue({ base: "sm", md: "lg" });
+  const responsiveLogo =
+    bp === "sm" ? <Image w="60px" src="./ufrrj-logo-2.png" /> : <Logo />;
 
   return (
     <Box>
@@ -52,7 +56,8 @@ export default function WithSubnavigation() {
             aria-label={"Toggle Navigation"}
           />
         </Flex>
-        <Logo />
+        {responsiveLogo}
+
         <Flex
           alignItems="center"
           ml={10}
@@ -61,7 +66,7 @@ export default function WithSubnavigation() {
         >
           <Heading
             textAlign={useBreakpointValue({ base: "center", md: "left" })}
-            color={useColorModeValue("gray.700", "white")}
+            color={useColorModeValue("gray.600", "white")}
           >
             Kairós
           </Heading>

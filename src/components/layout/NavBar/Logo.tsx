@@ -7,7 +7,7 @@ const SvgComponent = (props: JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElem
     height={59.483}
     {...props}
   >
-    <rect width="100%" height="100%" fill="none" className="selected" />
+    <rect fill="none" className="selected" />
     <g className="currentLayer">
       <title>{"Layer 1"}</title>
       <path
